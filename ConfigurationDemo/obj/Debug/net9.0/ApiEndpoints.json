@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "ConfigurationDemo.Controllers.ConfigurationController",
+    "Method": "Index",
+    "RelativePath": "Configuration",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConfigurationDemo.Controllers.ConfigurationController",
+    "Method": "getDatabaseConfiguration",
+    "RelativePath": "Configuration/database-config",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConfigurationDemo.Controllers.ConfigurationController",
+    "Method": "GetDatabaseConfigurationWithBind",
+    "RelativePath": "Configuration/database-config-with-bind",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConfigurationDemo.Controllers.ConfigurationController",
+    "Method": "GetDatabaseConfigurationWithGenericType",
+    "RelativePath": "Configuration/database-config-with-generic-type",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConfigurationDemo.Controllers.ConfigurationController",
+    "Method": "GetDatabaseConfigWithIOptions",
+    "RelativePath": "Configuration/database-config-with-ioptions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConfigurationDemo.Controllers.ConfigurationController",
+    "Method": "GetDatabaseConfigWithIOptionsMonitor",
+    "RelativePath": "Configuration/database-config-with-ioptions-monitor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConfigurationDemo.Controllers.ConfigurationController",
+    "Method": "GetDatabaseConfigWithIOptionsSnapshot",
+    "RelativePath": "Configuration/database-config-with-ioptions-snapshot",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConfigurationDemo.Controllers.ConfigurationController",
+    "Method": "GetDatabaseConfigWithNamedOptions",
+    "RelativePath": "Configuration/database-config-with-named-options",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConfigurationDemo.Controllers.ConfigurationController",
+    "Method": "GetMyKey",
+    "RelativePath": "Configuration/my-key",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConfigurationDemo.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ConfigurationDemo.WeatherForecast, ConfigurationDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
