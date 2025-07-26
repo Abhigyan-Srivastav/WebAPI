@@ -1,0 +1,59 @@
+2025-07-26 09:28:09.455 +05:30 [INF] Now listening on: https://localhost:7279
+2025-07-26 09:28:09.632 +05:30 [INF] Now listening on: http://localhost:5029
+2025-07-26 09:28:09.801 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-26 09:28:09.801 +05:30 [INF] Hosting environment: Development
+2025-07-26 09:28:09.802 +05:30 [INF] Content root path: C:\Projects\WebAPI\Chapter04\LoggingDemo
+2025-07-26 09:29:52.209 +05:30 [INF] Now listening on: https://localhost:7279
+2025-07-26 09:29:52.381 +05:30 [INF] Now listening on: http://localhost:5029
+2025-07-26 09:29:52.924 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-26 09:29:52.926 +05:30 [INF] Hosting environment: Development
+2025-07-26 09:29:52.926 +05:30 [INF] Content root path: C:\Projects\WebAPI\Chapter04\LoggingDemo
+2025-07-26 09:30:01.745 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7279/WeatherForecast/ - null null
+2025-07-26 09:30:01.890 +05:30 [INF] Executing endpoint 'LoggingDemo.Controllers.WeatherForecastController.Get (LoggingDemo)'
+2025-07-26 09:30:02.007 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[LoggingDemo.WeatherForecast] Get() on controller LoggingDemo.Controllers.WeatherForecastController (LoggingDemo).
+2025-07-26 09:30:02.017 +05:30 [INF] This is a logging message.
+2025-07-26 09:30:02.021 +05:30 [INF] This is a logging message with event id.
+2025-07-26 09:30:02.059 +05:30 [INF] Executing ObjectResult, writing value of type 'LoggingDemo.WeatherForecast[]'.
+2025-07-26 09:30:02.184 +05:30 [INF] Executed action LoggingDemo.Controllers.WeatherForecastController.Get (LoggingDemo) in 156.8209ms
+2025-07-26 09:30:02.185 +05:30 [INF] Executed endpoint 'LoggingDemo.Controllers.WeatherForecastController.Get (LoggingDemo)'
+2025-07-26 09:30:02.198 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7279/WeatherForecast/ - 200 null application/json; charset=utf-8 464.7429ms
+2025-07-26 17:50:05.563 +05:30 [INF] Now listening on: https://localhost:7279
+2025-07-26 17:50:05.685 +05:30 [INF] Now listening on: http://localhost:5029
+2025-07-26 17:50:05.841 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-26 17:50:05.847 +05:30 [INF] Hosting environment: Development
+2025-07-26 17:50:05.847 +05:30 [INF] Content root path: C:\Projects\WebAPI\Chapter04\LoggingDemo
+2025-07-26 17:50:40.885 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7279/api/structured-logging - null null
+2025-07-26 17:50:41.015 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7279/api/structured-logging - 404 0 null 132.8414ms
+2025-07-26 17:50:41.031 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7279/api/structured-logging, Response status code: 404
+2025-07-26 17:53:58.859 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7279/api/Logging/structured-logging - null null
+2025-07-26 17:53:58.889 +05:30 [INF] Executing endpoint 'LoggingDemo.Controllers.LoggingController.StructuredLoggingSample (LoggingDemo)'
+2025-07-26 17:53:58.975 +05:30 [INF] Route matched with {action = "StructuredLoggingSample", controller = "Logging"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult StructuredLoggingSample() on controller LoggingDemo.Controllers.LoggingController (LoggingDemo).
+2025-07-26 17:53:59.013 +05:30 [INF] This is a logging message with args: Today is "Saturday". It is 5:53:58 PM.
+2025-07-26 17:53:59.030 +05:30 [INF] This is a lgging message with string concatenation: Today is Saturday. It is 5:53:59 PM.
+2025-07-26 17:53:59.056 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-26 17:53:59.115 +05:30 [INF] Executed action LoggingDemo.Controllers.LoggingController.StructuredLoggingSample (LoggingDemo) in 92.0938ms
+2025-07-26 17:53:59.127 +05:30 [INF] Executed endpoint 'LoggingDemo.Controllers.LoggingController.StructuredLoggingSample (LoggingDemo)'
+2025-07-26 17:53:59.132 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7279/api/Logging/structured-logging - 200 null text/plain; charset=utf-8 273.2807ms
+2025-07-26 18:07:14.170 +05:30 [INF] Now listening on: https://localhost:7279
+2025-07-26 18:07:14.279 +05:30 [INF] Now listening on: http://localhost:5029
+2025-07-26 18:07:14.672 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-26 18:07:14.675 +05:30 [INF] Hosting environment: Development
+2025-07-26 18:07:14.715 +05:30 [INF] Content root path: C:\Projects\WebAPI\Chapter04\LoggingDemo
+2025-07-26 18:07:26.144 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7279/api/Logging/structured-logging - null null
+2025-07-26 18:07:26.286 +05:30 [INF] Executing endpoint 'LoggingDemo.Controllers.LoggingController.StructuredLoggingSample (LoggingDemo)'
+2025-07-26 18:07:26.459 +05:30 [INF] Route matched with {action = "StructuredLoggingSample", controller = "Logging"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult StructuredLoggingSample() on controller LoggingDemo.Controllers.LoggingController (LoggingDemo).
+2025-07-26 18:07:26.511 +05:30 [INF] This is a logging message with args: Today is "Saturday". It is 6:07:26 PM.
+2025-07-26 18:07:26.525 +05:30 [INF] This is a lgging message with string concatenation: Today is Saturday. It is 6:07:26 PM.
+2025-07-26 18:07:26.556 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-26 18:07:26.658 +05:30 [INF] Executed action LoggingDemo.Controllers.LoggingController.StructuredLoggingSample (LoggingDemo) in 157.946ms
+2025-07-26 18:07:26.673 +05:30 [INF] Executed endpoint 'LoggingDemo.Controllers.LoggingController.StructuredLoggingSample (LoggingDemo)'
+2025-07-26 18:07:26.698 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7279/api/Logging/structured-logging - 200 null text/plain; charset=utf-8 578.102ms
+2025-07-26 18:07:55.058 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7279/api/Logging/structured-logging - null null
+2025-07-26 18:07:55.073 +05:30 [INF] Executing endpoint 'LoggingDemo.Controllers.LoggingController.StructuredLoggingSample (LoggingDemo)'
+2025-07-26 18:07:55.081 +05:30 [INF] Route matched with {action = "StructuredLoggingSample", controller = "Logging"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult StructuredLoggingSample() on controller LoggingDemo.Controllers.LoggingController (LoggingDemo).
+2025-07-26 18:07:55.136 +05:30 [INF] This is a logging message with args: Today is "Saturday". It is 6:07:55 PM.
+2025-07-26 18:07:55.146 +05:30 [INF] This is a lgging message with string concatenation: Today is Saturday. It is 6:07:55 PM.
+2025-07-26 18:07:55.161 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-26 18:07:55.180 +05:30 [INF] Executed action LoggingDemo.Controllers.LoggingController.StructuredLoggingSample (LoggingDemo) in 49.4007ms
+2025-07-26 18:07:55.188 +05:30 [INF] Executed endpoint 'LoggingDemo.Controllers.LoggingController.StructuredLoggingSample (LoggingDemo)'
+2025-07-26 18:07:55.199 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7279/api/Logging/structured-logging - 200 null text/plain; charset=utf-8 141.4023ms
