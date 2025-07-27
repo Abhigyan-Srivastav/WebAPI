@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "S+28tQlfNtA=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\WebAPI\\Chapter04\\TraceIdentifierMiddleWare\\TraceIdentifierMiddleWare.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abhi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "C:\\Users\\Abhi\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

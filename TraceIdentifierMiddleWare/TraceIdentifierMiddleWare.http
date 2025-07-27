@@ -1,0 +1,6 @@
+@TraceIdentifierMiddleWare_HostAddress = http://localhost:5144
+
+GET {{TraceIdentifierMiddleWare_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
