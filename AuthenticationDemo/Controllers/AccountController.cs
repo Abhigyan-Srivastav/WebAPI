@@ -48,6 +48,25 @@ namespace AuthenticationDemo.Controllers
             return BadRequest(ModelState);
         }
 
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] AddOrUpdateAppUserModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await userManager.FindByNameAsync(model.UserName);
+                if (user != null) 
+                { 
+                    if(await userManager.CheckPasswordAsync(user, model.Password))
+                    {
+                        var token = GenerateToken(model.UserName);
+                        return Ok(new { token });
+                    }
+                }
+
+                ModelState.AddModelError("","Invalid Username or Password");
+            }
+            return BadRequest(ModelState);
+        }
         private string? GenerateToken(string userName) 
         {
             var secret = configuration["JwtConfig:Secret"];
@@ -75,5 +94,9 @@ namespace AuthenticationDemo.Controllers
 
             return token;
         }
+
+        
+
     }
+    
 }

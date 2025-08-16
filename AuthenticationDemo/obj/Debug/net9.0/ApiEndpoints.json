@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "AuthenticationDemo.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AuthenticationDemo.Authentication.AddOrUpdateAppUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthenticationDemo.Controllers.AccountController",
     "Method": "Register",
     "RelativePath": "Account/register",
     "HttpMethod": "POST",
