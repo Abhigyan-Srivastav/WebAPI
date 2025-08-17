@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "RoleBasedAuthorizationDemo.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RoleBasedAuthorizationDemo.Authentication.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RoleBasedAuthorizationDemo.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RoleBasedAuthorizationDemo.Authentication.AddOrUpdateAppUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RoleBasedAuthorizationDemo.Controllers.AccountController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "Account/register-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RoleBasedAuthorizationDemo.Authentication.AddOrUpdateAppUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RoleBasedAuthorizationDemo.Controllers.AccountController",
+    "Method": "RegisterVip",
+    "RelativePath": "Account/register-vip",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RoleBasedAuthorizationDemo.Authentication.AddOrUpdateAppUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RoleBasedAuthorizationDemo.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RoleBasedAuthorizationDemo.WeatherForecast, RoleBasedAuthorizationDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  },
+  {
+    "ContainingType": "RoleBasedAuthorizationDemo.Controllers.WeatherForecastController",
+    "Method": "GetAdmin",
+    "RelativePath": "WeatherForecast/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RoleBasedAuthorizationDemo.WeatherForecast, RoleBasedAuthorizationDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAdminWeatherForecast"
+  }
+]
