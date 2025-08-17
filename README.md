@@ -5,3 +5,4 @@ Asp.net WebAPI samples
 3. MiddlewareDemo - This sample showcases two built in middlewares - Rate Limit and Request Timeout. Rate Limit is used to prevent DDoS attacks and Request Timeout middleware is used to handle request timeouts in an elegant manner.
 4. Custom Middleware - Adding a trace identifier to track a service request between various web APIs.
 5. AuthenticationDemo = JWT Authentication and Authorization. Added support for Swagger.
+6. RoleBasedAuthorizationDemo - Custom Roles - Admin, User, VIPUser. Added support for Swagger.
